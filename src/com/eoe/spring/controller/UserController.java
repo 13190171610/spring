@@ -95,6 +95,7 @@ public class UserController {
 	@RequestMapping("/getDate.do")
 	public String getDate(Date date) {
 		System.out.println(date);
+		System.out.println("!!");
 		return "userinfo/success";
 	}
 
